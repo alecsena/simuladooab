@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --oab-blue: #003087;
+  --oab-gold: #C9A24A;
+}
+
+body {
+  background-color: #F5F7FA;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
+
+.prose p {
+  margin-bottom: 0.5rem;
+}
